@@ -1,34 +1,34 @@
-let Letter = require('./letter.js');
-let inquirer = require('inquirer');
-let Word = require('./word.js')
+var Letter = require('./letter.js');
+var inquirer = require('inquirer');
+var Word = require('./word.js')
 //console.log(Letter);
 
 
-let wordBank = ['Honda', 'Toyota', 'Lexus', 'Acura', 'BMW', 'Infinity', 'Suburu'];
+var wordBank = ['Honda', 'Toyota', 'Lexus', 'Acura', 'BMW', 'Infinity', 'Suburu'];
 
 //this.chosenWord = wordBank[Math.floor(Math.random() * wordBank.length)];
 //You need an array for guessed correct and incorrect letters
-let correctLetters = [];
-let incorrectLetter = [];
+var correctLetters = [];
+var incorrectLetter = [];
 
 
 //for underscores to appear will be used in a function
-let underScore = "_"
+var underScore = "_"
 
 
 // Guesses user has in the game
-let guessesLeft = 5;
+var guessesLeft = 5;
 
 //randomly selects a word and uses a constructor to store it
 // function playGame() {
-// let wordChoice = new Word(chosenWord);
+// var wordChoice = new Word(chosenWord);
 // Word.underScoreMake();
 // }
 
 //This is to grab a random word
 // function grabRandomWord() {
-//     let rand = wordBank[Math.floor(Math.random() * wordBank.length)];
-//     let randomSelection = wordBank[rand];
+//     var rand = wordBank[Math.floor(Math.random() * wordBank.length)];
+//     var randomSelection = wordBank[rand];
 //     if(chosenWord.indexOf(randomWord) === -1) {
 //       return randomWord;
 //     } else {
@@ -50,7 +50,7 @@ let guessesLeft = 5;
 //            letterValidate = this.letterChecker(guess);
 //         if (guessesLeft === 0) {
                //console.log('');
-//                 console.log("Youre guesses were incorrect" + ansewer.guessedLetter + "Try Again!");
+//                 console.log("Your guesses were incorrect" + answer.guessedLetter + "Try Again!");
 //                 guessesLeft--;
 //             } else {
 //         console.log(this.letterChecker);
