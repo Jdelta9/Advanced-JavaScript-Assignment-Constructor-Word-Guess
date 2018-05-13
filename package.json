@@ -1,0 +1,41 @@
+package name: (advanced-javascript-assignment-constructor-word-guess-master) 
+version: (1.0.0) npm install inquirer
+Invalid version: "npm install inquirer"
+version: (1.0.0) 
+description: 
+entry point: (index.js) 
+test command: 
+git repository: advanced-javascript-assignment-constructor-word-guess-master
+keywords: ['Honda', 'Toyota', 'Lexus', 'Acura', 'BMW', 'Infinity', 'Suburu']
+author: Jessica Cervantes
+license: (ISC) 
+About to write to /Users/JessicaCervantes/Documents/Advanced-JavaScript-Assignment-Constructor-Word-Guess-master/package.json:
+
+{
+  "name": "advanced-javascript-assignment-constructor-word-guess-master",
+  "version": "1.0.0",
+  "description": "Advanced JavaScript Assignment: Constructor Word Guess/ will create a Word Guess command-line game using constructor functions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "advanced-javascript-assignment-constructor-word-guess-master"
+  },
+  "keywords": [
+    "['Honda'",
+    "'Toyota'",
+    "'Lexus'",
+    "'Acura'",
+    "'BMW'",
+    "'Infinity'",
+    "'Suburu']"
+  ],
+  "author": "Jessica Cervantes",
+  "license": "ISC"
+}
+
+
+Is this ok? (yes) 
+Jessicas-MacBook:Advanced-JavaScript-Assignment-Constructor-Word-Guess-master JessicaCervantes$ 
